@@ -5,18 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
-    <!-- Background Container -->
-    <div class="flex items-center justify-center h-screen bg-zinc-700">
-      <!-- Card -->
-      <div class="bg-zinc-800 p-2 rounded-2xl">
-        <!-- Image -->
-        <img
-            src="images/image.jpg"
-            alt=""
-            class="h-80 rounded-l-xl"
-          />
-      </div>
-    </div>
+  <body class="flex items-center justify-center bg-zinc-800 h-screen">
+    <article class="flex flex-col items-center justify-center w-52 h-80">
+      <img src="images/image.jpg" alt="" class="">
+      <section class="flex flex-col items-stretch justify-center">
+        <h2 class="font-serif text-xl font-medium text-white">Get diet and fitness tips in your inbox</h2>
+        <p class="text-xs text-white">Eat better and exercise better. Sign up for the Diet&Fitness newsletter.</p>
+        <div>
+          <input type="text" placeholder="Enter your email address" class="bg-zinc-800 px-5 py-3 border border-zinc-600"/>
+          <button class="bg-lime-500 px-5 py-3 rounded-md">Subscribe</button>
+        </div>
+      </section>
+    </article>
   </body>
 </html>
